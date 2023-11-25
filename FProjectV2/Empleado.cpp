@@ -229,17 +229,22 @@ void Empleado::llenarFormulario() {
     std::cin >> numeroHijos;
 
     // Llenar información de cada hijo
-    for (int i = 0; i < numeroHijos; ++i) {
-      Hijo hijo;
-      std::cout << "Nombre del Hijo #" << i + 1 << ": ";
-      std::cin >> hijo.nombre;
+// Inside the loop where you read information for each hijo
+	for (int i = 0; i < numeroHijos; ++i) {
+   		 Hijo hijo;
+    	std::cout << "Nombre del Hijo #" << i + 1 << ": ";
+    	std::string nombreHijo;
+    	std::cin >> nombreHijo;
+   		 hijo.setNombre(nombreHijo);
 
-      std::cout << "Fecha de Nacimiento del Hijo #" << i + 1 << " (DD/MM/YYYY): ";
-      std::cin >> hijo.fechaNacimiento;
+    	std::cout << "Fecha de Nacimiento del Hijo #" << i + 1 << " (DD/MM/YYYY): ";
+   		 std::string fechaNacimientoHijo;
+    	std::cin >> fechaNacimientoHijo;
+    	hijo.setFechaNacimiento(fechaNacimientoHijo);
 
-      // Agregar el hijo a la lista de hijos
-      agregarHijo(hijo);
-    }
+    	// Agregar el hijo a la lista de hijos
+    	agregarHijo(hijo);
+	}
   }
 
   std::cout << "Nombre de la Sucursal en la que trabaja: ";

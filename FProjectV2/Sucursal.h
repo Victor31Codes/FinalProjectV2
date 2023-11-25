@@ -32,13 +32,13 @@ public:
   Lista<Empleado> getEmpleados() const;
 };
 
-void Sucursal::agregarEmpleado(const Empleado& empleado) {
-  empleados.endInsert(empleado);
-}
+//void Sucursal::agregarEmpleado(const Empleado& empleado) {
+//  empleados.endInsert(empleado);
+//}
 
-Lista<Empleado> Sucursal::getEmpleados() const {
-  return empleados;
-}
+//Lista<Empleado> Sucursal::getEmpleados() const {
+//  return empleados;
+//}
 
 #endif
 
