@@ -32,6 +32,12 @@ private:
   std::string barrioSucursal;
   std::string ciudadNacimiento;
   std::string gerenteSucursal;
+  bool validarNombre(const std::string& nombre) const;
+  bool validarApellido(const std::string& apellido) const;
+  bool validarEmail(const std::string& email) const;
+  bool validarFechaNacimiento(const std::string& fecha) const;
+  bool esCadenaSoloLetras(const std::string& cadena);
+  bool validarActividadLaboral(const std::string& actividadLaboral) const;
 
 public:
   // Métodos set

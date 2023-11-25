@@ -26,6 +26,7 @@ public:
   void setDireccionSucursal(const std::string& direccionSucursal);
   void setBarrioSucursal(const std::string& barrioSucursal);
   void setGerenteSucursal(const std::string& gerenteSucursal);
+  void llenarFormularioSucursal();
 
   // Métodos para la relación con los empleados
   void agregarEmpleado(const Empleado& empleado);
