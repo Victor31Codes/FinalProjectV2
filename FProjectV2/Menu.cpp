@@ -9,7 +9,8 @@ class Menu {
 	public:
 	
 	int Opcion;
-	Empleado empleado;
+	Sucursal
+//	Empleado empleado;
 	
 	// Menus disponbles:
 	
@@ -31,7 +32,7 @@ class Menu {
 	    cout << "Menu Principal" << endl;
 	    cout << "--------------------------------------------------" << endl;
 	    cout << "1. Sobre nosotros como empresa" << endl;
-	    cout << "2. Buscar por categorias" << endl;
+	    cout << "2. Buscar por categorias" << endl;		
 	    cout << "3. Realizar Consultas" << endl;
 	    cout << "4. Insertar, Modificar y Eliminar" << endl;
 	    cout << "5. Salir" << endl;
@@ -154,7 +155,8 @@ class Menu {
 					
 					switch (Opcion) {
 						case 1: {
-							empleado.llenarFormulario();
+							Empleado nuevoEmpleado = new Empleado();
+							nuevoEmpleado.llenarFormulario();
 							break;
 						}
 						case 2: {
