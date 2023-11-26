@@ -237,7 +237,7 @@ do {
         if (esNumerico) {
             int longitud = numeroIdentificacion.length();
             if (longitud < 8 || longitud > 10) {
-                std::cout << "Número de identificación debe tener entre 8 y 10 dígitos." << std::endl;
+                std::cout << "Número de identificación debe tener entre  8 y 10 dígitos." << std::endl;
             } else {
                 // El número de identificación es válido
                 break;

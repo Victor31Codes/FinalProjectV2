@@ -67,7 +67,7 @@ class Menu {
 	    cout << "6. Actualizar Sucursal" << endl;
 	    cout << "7. Salir" << endl;
 	}
-		
+	//Hola gente	
 	void MenuPrincipal() {
 		bool programaAbierto = true;
 		

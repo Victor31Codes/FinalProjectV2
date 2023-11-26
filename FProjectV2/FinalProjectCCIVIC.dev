@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=
-UnitCount=11
+UnitCount=14
 
 [VersionInfo]
 Major=1
@@ -154,6 +154,36 @@ BuildCmd=
 FileName=Menu.cpp
 CompileCpp=1
 Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit12]
+FileName=ArbolRojiNegro.h
+CompileCpp=1
+Folder=Estructuras de Datos
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit13]
+FileName=colaTemplates.h
+CompileCpp=1
+Folder=Estructuras de Datos
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit14]
+FileName=pila.h
+CompileCpp=1
+Folder=Estructuras de Datos
 Compile=1
 Link=1
 Priority=1000
