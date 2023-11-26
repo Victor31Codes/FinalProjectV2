@@ -26,7 +26,52 @@ class Menu {
 	void leerArchivos() {
 		cout << "algo";
 	}
+<<<<<<< HEAD
+		
+	void SelectorMenu() {
+		cout << "\nEmpresa CC1" << endl;
+	    cout << "Menu Principal" << endl;
+	    cout << "--------------------------------------------------" << endl;
+	    cout << "1. Sobre nosotros como empresa" << endl;
+	    cout << "2. Buscar por categorias" << endl;		
+	    cout << "3. Realizar Consultas" << endl;
+	    cout << "4. Insertar, Modificar y Eliminar" << endl;
+	    cout << "5. Salir" << endl;
+	}
+	
+	void SubMenu_SobreNosotros() {
+		cout << "Empresa CC1 busca recoger información acerca de sus empleados con el fin de hallar perfiles \nque les permitan enfocar el desarrollo de las labores de manera más eficiente.  \nPara ello, los gerentes ordenan la elaboración de formularios que son entregados en cada \nuna de las sucursales ubicadas a lo largo y ancho del país \n(puede haber más de una sucursal en la misma ciudad).";
+	}
+	
+	void SubMenu_BusquedaPorCategoria() {
+		cout << "categorias";
+	}
+	
+	void SubMenu_RealizarConsultas(){
+		cout << "Realizar una consulta" << endl;
+	    cout << "--------------------------------------------------" << endl;
+	    cout << "1. Numero total de personas que trabajan en una sucursal dada." << endl;
+	    cout << "2. Listado de los nombres y apellidos de aquellos que tienen cierto número de hijos." << endl;
+	    cout << "3. Realizar Consultas" << endl;
+	    cout << "4. Insertar, Modificar y Eliminar" << endl;
+	    cout << "5. Salir" << endl;
+	}
+	
+	void SubMenu_CRUD() {
+		cout << "Realizar operacion" << endl;
+	    cout << "--------------------------------------------------" << endl;
+	    cout << "1. Insertar Empleado" << endl;
+	    cout << "2. Eliminar Empleado" << endl;
+	    cout << "3. Actualizar Empleado" << endl;
+	    cout << "4. Insertar Sucursal" << endl;
+	    cout << "5. Eliminar Sucursal" << endl;
+	    cout << "6. Actualizar Sucursal" << endl;
+	    cout << "7. Salir" << endl;
+	}
+	//Hola gente	
+=======
 
+>>>>>>> main
 	void MenuPrincipal() {
 		bool programaAbierto = true;
 		
