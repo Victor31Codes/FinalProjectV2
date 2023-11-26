@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = mainCCIVIC.o Empleado.o Ciudad.o Sucursal.o Menu.o
-LINKOBJ  = mainCCIVIC.o Empleado.o Ciudad.o Sucursal.o Menu.o
+OBJ      = mainCCIVIC.o Empleado.o Ciudad.o Sucursal.o Menu.o LeerEntradas.o ListaCiudades.o
+LINKOBJ  = mainCCIVIC.o Empleado.o Ciudad.o Sucursal.o Menu.o LeerEntradas.o ListaCiudades.o
 LIBS     = -L"C:/Users/MANOLO/Dev-Cpp/MinGW64/lib" -L"C:/Users/MANOLO/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Users/MANOLO/Dev-Cpp/MinGW64/include" -I"C:/Users/MANOLO/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
 CXXINCS  = -I"C:/Users/MANOLO/Dev-Cpp/MinGW64/include" -I"C:/Users/MANOLO/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/MANOLO/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.7.1/include/c++"
@@ -38,3 +38,9 @@ Sucursal.o: Sucursal.cpp
 
 Menu.o: Menu.cpp
 	$(CPP) -c Menu.cpp -o Menu.o $(CXXFLAGS)
+
+LeerEntradas.o: LeerEntradas.cpp
+	$(CPP) -c LeerEntradas.cpp -o LeerEntradas.o $(CXXFLAGS)
+
+ListaCiudades.o: ListaCiudades.cpp
+	$(CPP) -c ListaCiudades.cpp -o ListaCiudades.o $(CXXFLAGS)
