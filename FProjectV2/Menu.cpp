@@ -9,8 +9,8 @@ class Menu {
 	public:
 	
 	int Opcion;
-	Sucursal
-//	Empleado empleado;
+//	Sucursal
+	Empleado empleado;
 	
 	// Menus disponbles:
 	
@@ -155,8 +155,8 @@ class Menu {
 					
 					switch (Opcion) {
 						case 1: {
-							Empleado nuevoEmpleado = new Empleado();
-							nuevoEmpleado.llenarFormulario();
+							Empleado empleado;
+							empleado.llenarFormulario();
 							break;
 						}
 						case 2: {
