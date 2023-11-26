@@ -24,14 +24,12 @@ private:
   std::string barrio;
   std::string actividadLaboral;
   std::string tieneHijos;
+  std::string ciudadNacimiento;
   int numeroHijos;
   Lista<Hijo> hijos;
+  
   int idSucursal;
-  std::string nombreSucursal;
-  std::string direccionSucursal;
-  std::string barrioSucursal;
-  std::string ciudadNacimiento;
-  std::string gerenteSucursal;
+
   bool validarNombre(const std::string& nombre) const;
   bool validarApellido(const std::string& apellido) const;
   bool validarEmail(const std::string& email) const;
@@ -73,14 +71,6 @@ public:
   std::string getTieneHijos() const;
   void setNumeroHijos(int numeroHijos);
   int getNumeroHijos() const;
-  void setNombreSucursal(const std::string& nombreSucursal);
-  std::string getNombreSucursal() const;
-  void setDireccionSucursal(const std::string& direccionSucursal);
-  std::string getDireccionSucursal() const;
-  void setBarrioSucursal(const std::string& barrioSucursal);
-  std::string getBarrioSucursal() const;
-  void setGerenteSucursal(const std::string& gerenteSucursal);
-  std::string getGerenteSucursal() const;
   void setCiudadNacimiento(const std::string& ciudadNacimiento);
   std::string getCiudadNacimiento() const;
   void setIdSucursal(int idSucursal);

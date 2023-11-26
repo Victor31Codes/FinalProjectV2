@@ -76,22 +76,6 @@ void Empleado::setNumeroHijos(int numeroHijos) {
   this->numeroHijos = numeroHijos;
 }
 
-void Empleado::setNombreSucursal(const std::string& nombreSucursal) {
-  this->nombreSucursal = nombreSucursal;
-}
-
-void Empleado::setDireccionSucursal(const std::string& direccionSucursal) {
-  this->direccionSucursal = direccionSucursal;
-}
-
-void Empleado::setBarrioSucursal(const std::string& barrioSucursal) {
-  this->barrioSucursal = barrioSucursal;
-}
-
-void Empleado::setGerenteSucursal(const std::string& gerenteSucursal) {
-  this->gerenteSucursal = gerenteSucursal;
-}
-
 void Empleado::setCiudadNacimiento(const std::string& ciudadNacimiento) {
   this->ciudadNacimiento = ciudadNacimiento;
 }
@@ -158,22 +142,6 @@ std::string Empleado::getTieneHijos() const {
 
 int Empleado::getNumeroHijos() const {
   return numeroHijos;
-}
-
-std::string Empleado::getNombreSucursal() const {
-  return nombreSucursal;
-}
-
-std::string Empleado::getDireccionSucursal() const {
-  return direccionSucursal;
-}
-
-std::string Empleado::getBarrioSucursal() const {
-  return barrioSucursal;
-}
-
-std::string Empleado::getGerenteSucursal() const {
-  return gerenteSucursal;
 }
 
 // Métodos para la relación con los hijos
@@ -373,12 +341,9 @@ while (!validarActividadLaboral(actividadLaboral)) {
 	}
   }
   
-
-  std::cout << "Nombre de la Sucursal en la que trabaja: ";
-  std::cin >> nombreSucursal;
-  
-      Sucursal sucursal;
-    sucursal.llenarFormularioSucursal();
+//  Mejorar el llamado de la sucursal
+//	Sucursal sucursal;
+//    sucursal.llenarFormularioSucursal();
 }
 
 //// Implementación de las funciones
